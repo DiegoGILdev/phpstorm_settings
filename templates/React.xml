@@ -1,0 +1,8 @@
+<templateSet group="React">
+  <template name="nc" value="import React, {Component} from 'react';&#10;import './$nickname$.css';&#10;&#10;class $nickname$ extends Component {&#10;    constructor(props) {&#10;        super(props);&#10;        this.state = {&#10;            value: null,&#10;        };&#10;    }&#10;&#10;    render() {&#10;        return (&#10;            &lt;div className='$nickname$'&gt;&#10;            &lt;/div&gt;&#10;        );&#10;    }&#10;}&#10;&#10;export default $nickname$&#10;" description="New component" toReformat="false" toShortenFQNames="true">
+    <variable name="nickname" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

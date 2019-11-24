@@ -1,0 +1,73 @@
+<templateSet group="PHP">
+  <template name="ltlacontroller" value="&lt;?php&#10;&#10;namespace App\Http\Controllers;&#10;&#10;use Illuminate\Http\Request;&#10;&#10;class HomeController extends Controller&#10;{&#10;&#9;public function index(Request $request)&#10;&#9;{&#10;&#9;&#9;return view('front.index');&#10;&#9;}&#10;}&#10;" description="Laravel controller" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ltlaroute" value="Route::resource('models', 'ModelController', ['except' =&gt; 'show']);" description="Laravel route" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ltlahasone" value="return $this-&gt;hasOne(Author::class, 'id', 'author_id');" description="hasOne" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ltlafactory" value="factory(Article::class, 40)-&gt;create();" description="Factory" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ltlaresponse" value="return response()-&gt;json($articleResource, 200);" description="JSON response" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ltlasqlite" value="'database' =&gt; ':memory:'," description="Sqlite memory" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ltlasqlitetest" value="&lt;env name=&quot;DB_CONNECTION&quot; value=&quot;sqlite&quot;/&gt;" description="PhpUnit Sqlite config" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ltlaform" value="&lt;form method=&quot;post&quot; action=&quot;{{url('passports')}}&quot; enctype=&quot;multipart/form-data&quot;&gt;&#10;    @csrf&#10;    &lt;div class=&quot;row&quot;&gt;&#10;        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;&#10;        &lt;div class=&quot;form-group col-md-4&quot;&gt;&#10;            &lt;label for=&quot;Name&quot;&gt;Name:&lt;/label&gt;&#10;            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; name=&quot;name&quot;&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;row&quot;&gt;&#10;        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;&#10;        &lt;div class=&quot;form-group col-md-4&quot;&gt;&#10;            &lt;label for=&quot;Email&quot;&gt;Email:&lt;/label&gt;&#10;            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; name=&quot;email&quot;&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;row&quot;&gt;&#10;        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;&#10;        &lt;div class=&quot;form-group col-md-4&quot;&gt;&#10;            &lt;label for=&quot;Number&quot;&gt;Phone Number:&lt;/label&gt;&#10;            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; name=&quot;number&quot;&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;row&quot;&gt;&#10;        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;&#10;        &lt;div class=&quot;form-group col-md-4&quot;&gt;&#10;            &lt;input type=&quot;file&quot; name=&quot;filename&quot;&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;row&quot;&gt;&#10;        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;&#10;        &lt;div class=&quot;form-group col-md-4&quot;&gt;&#10;            &lt;strong&gt;Date : &lt;/strong&gt;&#10;            &lt;input class=&quot;date form-control&quot;  type=&quot;text&quot; id=&quot;datepicker&quot; name=&quot;date&quot;&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;row&quot;&gt;&#10;        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;&#10;        &lt;div class=&quot;form-group col-md-4&quot;&gt;&#10;            &lt;label&gt;Passport Office&lt;/label&gt;&#10;            &lt;select name=&quot;office&quot;&gt;&#10;                &lt;option value=&quot;Mumbai&quot;&gt;Mumbai&lt;/option&gt;&#10;                &lt;option value=&quot;Chennai&quot;&gt;Chennai&lt;/option&gt;&#10;                &lt;option value=&quot;Delhi&quot;&gt;Delhi&lt;/option&gt;&#10;                &lt;option value=&quot;Bangalore&quot;&gt;Bangalore&lt;/option&gt;&#10;            &lt;/select&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;row&quot;&gt;&#10;        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;&#10;        &lt;div class=&quot;form-group col-md-4&quot; style=&quot;margin-top:60px&quot;&gt;&#10;            &lt;button type=&quot;submit&quot; class=&quot;btn btn-success&quot;&gt;Submit&lt;/button&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/form&gt;" description="Form" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ltlarules" value="protected $rules = [&#10;    'sigla' =&gt; 'required',&#10;    'nome' =&gt; 'required',&#10;    'material_exame_id' =&gt; 'required',&#10;    'tipo_prazo' =&gt; 'required',&#10;    'prazo_execucao' =&gt; 'required|numeric',&#10;    'setor_id' =&gt; 'required',&#10;    'ordem' =&gt; 'required|numeric',&#10;];&#10;" description="Rules" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ltlavalidate" value="$validator = Validator::make($request-&gt;all(), [&#10;    'title' =&gt; 'required|unique:posts|max:255',&#10;    'body' =&gt; 'required',&#10;]);&#10;&#10;if ($validator-&gt;fails()) {&#10;    return redirect('post/create')&#10;                -&gt;withErrors($validator)&#10;                -&gt;withInput();&#10;}" description="Validate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ltlablade" value="&#10;&lt;!doctype html&gt;&#10;&lt;html lang=&quot;{{ app()-&gt;getLocale() }}&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot;&gt;&#10;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#10;&#10;    &lt;!-- CSRF Token --&gt;&#10;    &lt;meta name=&quot;csrf-token&quot; content=&quot;{{ csrf_token() }}&quot;&gt;&#10;&#10;    &lt;title&gt;{{ config('app.name', 'Laravel') }}&lt;/title&gt;&#10;&#10;    &lt;!-- Fonts --&gt;&#10;    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Raleway:100,600&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;&#10;&#10;    &lt;!-- Styles --&gt;&#10;    &lt;link href=&quot;{{ asset('css/app.css') }}&quot; rel=&quot;stylesheet&quot;&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;div id=&quot;app&quot;&gt;&#10;    &lt;div class=&quot;container&quot;&gt;&#10;        &lt;example-component&gt;&lt;/example-component&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;script src=&quot;{{ asset('js/app.js') }}&quot;&gt;&lt;/script&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="Blade vue.js" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for ($i=0; $i&lt;$VAR$; $i++) {&#10;    &#10;}" description="for" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,9 @@
+<templateSet group="Vue">
+  <template name="ltvuecomponent" value="&lt;template&gt;&#10;    &lt;div&gt;&#10;        &lt;filter-bar&gt;&lt;/filter-bar&gt;&#10;        &lt;vuetable ref=&quot;vuetable&quot;&#10;                  api-url=&quot;http://localhost/laravelvuetable/public/api/users&quot;&#10;                  :fields=&quot;fields&quot;&gt;&#10;            &#10;        &lt;/vuetable&gt;&#10;        &lt;div class=&quot;vuetable-pagination&quot;&gt;&#10;            &lt;vuetable-pagination-info ref=&quot;paginationInfo&quot;&#10;                                      info-class=&quot;pagination-info&quot;&#10;            &gt;&lt;/vuetable-pagination-info&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;  import Vuetable from 'vuetable-2/src/components/Vuetable'&#10;  import Vue from 'vue'&#10;  import VueEvents from 'vue-events'&#10;  import CustomActions from './CustomActions'&#10;  import DetailRow from './DetailRow'&#10;  import FilterBar from './FilterBar'&#10;&#10;  Vue.use(VueEvents)&#10;  Vue.component('custom-actions', CustomActions)&#10;  Vue.component('my-detail-row', DetailRow)&#10;  Vue.component('filter-bar', FilterBar)&#10;&#10;  export default {&#10;    components: {&#10;      Vuetable,&#10;    },&#10;    data () {&#10;      return {&#10;        fields: [],&#10;      }&#10;    },&#10;    methods: {&#10;      allcap (value) {&#10;        return value.toUpperCase()&#10;      },&#10;    },&#10;    events: {&#10;    }&#10;  }&#10;&lt;/script&gt;&#10;&lt;style&gt;&#10;    .pagination {&#10;        margin: 0;&#10;        float: right;&#10;    }&#10;&lt;/style&gt;" description="Component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

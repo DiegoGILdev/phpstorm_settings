@@ -1,0 +1,9 @@
+<toolSet name="Documentation">
+  <tool name="JSDoc" description="Generate JavaScript documentation" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/node" />
+      <option name="PARAMETERS" value="/usr/bin/jsdoc -c &quot;$FilePrompt$&quot;" />
+      <option name="WORKING_DIRECTORY" value="/home/dgil$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
