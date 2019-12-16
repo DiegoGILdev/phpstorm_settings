@@ -13,8 +13,8 @@
   </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
-  <action id="EditorLineEnd">
-    <keyboard-shortcut first-keystroke="end" />
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="EvaluateExpression">
@@ -45,6 +45,7 @@
   <action id="ShowSearchHistory" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="UML.ApplyCurrentLayout" />
+  <action id="Vcs.Log.GoToParent" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
