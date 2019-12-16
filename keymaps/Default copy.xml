@@ -13,6 +13,10 @@
   </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
@@ -33,11 +37,16 @@
   </action>
   <action id="NextTab" />
   <action id="PreviousTab" />
+  <action id="RecentFiles" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="UML.ApplyCurrentLayout" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="XDebugger.MoveWatchDown" />
 </keymap>
