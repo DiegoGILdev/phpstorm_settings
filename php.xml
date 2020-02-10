@@ -5,6 +5,7 @@
       <interpreter id="0e3168ce-df8e-4711-b84e-21c2b5f4b881" name="PHP 7.3" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="177261d3-f257-48f7-988d-12d679dcdcd3" name="PHP Docker" home="docker exec -ti desenv_light_web_1 php" debugger_id="php.debugger.XDebug" />
       <interpreter id="46d3a6ca-e7ae-4727-a69f-49b9338e90e1" name="PHP 7.2" home="/usr/bin/php72" debugger_id="php.debugger.XDebug" />
+      <interpreter id="53486c65-9821-40a0-861f-e46038aa4f0b" name="PHPTest" home="docker exec -ti desenv_light_web_1 php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
