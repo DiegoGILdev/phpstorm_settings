@@ -10,6 +10,7 @@
       <mapping pattern="dkstartwordpress7257" type="Bash" />
       <mapping pattern="dkstartlaravel7257" type="Bash" />
       <mapping pattern="dkstopphp72" type="Bash" />
+      <mapping pattern="dkentermysql57" type="Bash" />
       <mapping pattern="dkenterwordpress" type="Bash" />
       <mapping pattern="dkstartmysql57" type="Bash" />
       <mapping pattern="dkbuildmysql57" type="Bash" />
@@ -17,11 +18,10 @@
       <mapping pattern="dkstartphp72" type="Bash" />
       <mapping pattern="dkrestartwordpress7257" type="Bash" />
       <mapping pattern="dkrestartlaravel7257" type="Bash" />
+      <mapping pattern="dkbuildphp72" type="Bash" />
       <mapping pattern="dkenterphp72" type="Bash" />
-      <mapping pattern="dkentermysql57" type="Bash" />
       <mapping pattern="dkstoplaravel7257" type="Bash" />
       <mapping pattern="dkdumpimportmysql57" type="Bash" />
-      <mapping pattern="dkbuildphp72" type="Bash" />
       <mapping pattern="dkstopmysql80" type="Bash" />
       <mapping pattern="dkbuildmailhog11" type="Bash" />
       <mapping pattern="httpd-foreground" type="Bash" />
