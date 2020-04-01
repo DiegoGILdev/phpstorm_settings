@@ -28,9 +28,9 @@
       <mapping pattern="dkstopwordpress7257" type="Bash" />
       <mapping pattern="RoomList" type="JSP" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
-      <mapping ext="woff2" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="cnf2" type="PLAIN_TEXT" />
+      <mapping ext="woff2" type="PLAIN_TEXT" />
       <removed_mapping pattern="dkdumpimportmysql57" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
