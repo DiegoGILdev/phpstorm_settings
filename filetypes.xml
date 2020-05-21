@@ -5,10 +5,10 @@
       <mapping pattern="dkbuildmysql80" type="Bash" />
       <mapping pattern="dkdumpexportmysql57" type="Bash" />
       <mapping pattern="dkbuildwordpress" type="Bash" />
+      <mapping pattern="dkbuildmailcatcher10" type="Bash" />
       <mapping pattern="dkentermysql80" type="Bash" />
       <mapping pattern="dkstartwordpress7257" type="Bash" />
       <mapping pattern="dkstartlaravel7257" type="Bash" />
-      <mapping pattern="dkbuildmailcatcher10" type="Bash" />
       <mapping pattern="dkstopphp72" type="Bash" />
       <mapping pattern="dkentermysql57" type="Bash" />
       <mapping pattern="dkenterwordpress" type="Bash" />
