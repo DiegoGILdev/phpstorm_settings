@@ -6,5 +6,10 @@
         <option value="Portuguese (Portugal)" />
       </set>
     </option>
+    <option name="userDisabledRules">
+      <set>
+        <option value="REPEATED_WORDS" />
+      </set>
+    </option>
   </component>
 </application>
