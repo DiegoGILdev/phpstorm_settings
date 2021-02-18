@@ -6,7 +6,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="comp" value="import React, {Component} from &quot;react&quot;;&#10;&#10;class $CLASS_NAME$ extends Component {&#10;  render() {&#10;    return &lt;h1&gt;Content&lt;/h1&gt;&#10;  }&#10;}&#10;&#10;export default $CLASS_NAME$;&#10;" description="React component" toReformat="false" toShortenFQNames="true">
+  <template name="comp" value="import React, {Component} from &quot;react&quot;;&#10;&#10;class $CLASS_NAME$ extends Component {&#10;  render() {&#10;    return &lt;h1 className=&quot;display-4 p-5&quot;&gt;New component&lt;/h1&gt;&#10;  }&#10;}&#10;&#10;export default $CLASS_NAME$;&#10;" description="React component" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
