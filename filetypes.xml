@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="dkstartmysql80" type="Bash" />
       <mapping pattern="dkbuildmysql80" type="Bash" />
-      <mapping pattern="dkdumpexportmysql57" type="Bash" />
       <mapping pattern="dkbuildwordpress" type="Bash" />
       <mapping pattern="dkbuildmailcatcher10" type="Bash" />
       <mapping pattern="dkentermysql80" type="Bash" />
@@ -16,6 +15,7 @@
       <mapping pattern="dkbuildmysql57" type="Bash" />
       <mapping pattern="dkstopmysql57" type="Bash" />
       <mapping pattern="dkstartphp72" type="Bash" />
+      <mapping pattern="dkdumpexportmysql57" type="Bash" />
       <mapping pattern="dkrestartwordpress7257" type="Bash" />
       <mapping pattern="dkrestartlaravel7257" type="Bash" />
       <mapping pattern="dkbuildphp72" type="Bash" />
