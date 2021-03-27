@@ -2,7 +2,7 @@
   <component name="PhpAutoImport" auto_import_file_scope="true" />
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="0e3168ce-df8e-4711-b84e-21c2b5f4b881" name="PHP 7.3" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="0e3168ce-df8e-4711-b84e-21c2b5f4b881" name="PHP 7.4" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="177261d3-f257-48f7-988d-12d679dcdcd3" name="PHP Docker" home="docker exec -ti desenv_light_web_1 php" debugger_id="php.debugger.XDebug" />
       <interpreter id="46d3a6ca-e7ae-4727-a69f-49b9338e90e1" name="PHP 7.2" home="/usr/bin/php72" debugger_id="php.debugger.XDebug" />
       <interpreter id="53486c65-9821-40a0-861f-e46038aa4f0b" name="PHPTest" home="docker exec -ti desenv_light_web_1 php" debugger_id="php.debugger.XDebug" />
@@ -10,6 +10,48 @@
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
+      <interpreter name="PHP 7.4">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php" path_separator=":" version="7.4.13">
+          <additional_php_ini>/etc/php/conf.d/xdebug.ini</additional_php_ini>
+          <configuration_file>/etc/php/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:" />
+          </configuration_options>
+          <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="hash" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mysqlnd" />
+            <extension name="openssl" />
+            <extension name="pcntl" />
+            <extension name="pcre" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="session" />
+            <extension name="standard" />
+            <extension name="tokenizer" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
       <interpreter name="PHP 7.2">
         <phpinfo binary_type="PHP" php_cli="/usr/bin/php72" path_separator=":" version="7.2.26">
           <additional_php_ini>/etc/php72/conf.d/xdebug.ini</additional_php_ini>
