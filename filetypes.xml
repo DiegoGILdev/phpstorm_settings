@@ -8,6 +8,7 @@
       <mapping ext="cnf2" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="md" type="XML" />
+      <removed_mapping ext="log" approved="true" type="ANSI Aware" />
       <removed_mapping ext="md" approved="true" type="Markdown" />
       <removed_mapping ext="permissionset" approved="true" type="XML" />
       <removed_mapping ext="profile" approved="true" type="XML" />
